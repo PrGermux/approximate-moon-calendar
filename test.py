@@ -48,8 +48,7 @@ while True:
     for i in range(monat - 1, len(matrix)):
         mondtag = matrix[i][tag - 1] 
         # If we found these days, then exit loop
-        if (mondtag == tag_b - 1) and (monat == monat_b) or (mondtag == tag_b) and (monat == monat_b) 
-            or (mondtag == tag_b + 1) and (monat == monat_b): break
+        if (mondtag == tag_b - 1) and (monat == monat_b) or (mondtag == tag_b) and (monat == monat_b) or (mondtag == tag_b + 1) and (monat == monat_b): break
         # This line will show all full moon days begins with 'jahr_b' year:
         #print(mondtag, '.', monat, '.', jahr)
         monat += 1
@@ -60,8 +59,7 @@ while True:
         if tag == 0: tag = matrix[i + 1][-1]
     
     if jahr >= jahr_b:
-        if (mondtag == tag_b - 1) and (monat == monat_b) or (mondtag == tag_b) and (monat == monat_b)
-            or (mondtag == tag_b + 1) and (monat == monat_b): break
+        if (mondtag == tag_b - 1) and (monat == monat_b) or (mondtag == tag_b) and (monat == monat_b) or (mondtag == tag_b + 1) and (monat == monat_b): break
         
     jahr += 1
     monat = 1
@@ -93,8 +91,7 @@ while True:
     for i in range(monat - 1, len(matrix)):
         mondtag = matrix[i][tag - 1]  
         # If we found these days, then exit loop
-        if (mondtag == tag_b - 1) and (monat == monat_b) or (mondtag == tag_b) and (monat == monat_b)
-            or (mondtag == tag_b + 1) and (monat == monat_b): break
+        if (mondtag == tag_b - 1) and (monat == monat_b) or (mondtag == tag_b) and (monat == monat_b) or (mondtag == tag_b + 1) and (monat == monat_b): break
         # This line will show all new moon days begins with 'jahr_b' year
         #print(mondtag, '.', monat, '.', jahr)
         monat += 1
@@ -105,8 +102,7 @@ while True:
         if tag == 0: tag = matrix[i + 1][-1]
             
     if jahr >= jahr_b:       
-        if (mondtag == tag_b - 1) and (monat == monat_b) or (mondtag == tag_b) and (monat == monat_b)
-            or (mondtag == tag_b + 1) and (monat == monat_b): break
+        if (mondtag == tag_b - 1) and (monat == monat_b) or (mondtag == tag_b) and (monat == monat_b) or (mondtag == tag_b + 1) and (monat == monat_b): break
         
     jahr += 1
     monat = 1
